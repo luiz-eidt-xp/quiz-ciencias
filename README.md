@@ -9,9 +9,8 @@ Neste site, você encontrará um **quiz interativo com 10 perguntas** sobre rea�
 - **Objetivo:** Estimular o aprendizado de forma interativa e prática.
 
 ## Acesse o Site
-Para acessar o quiz, use um dos links abaixo (coloquei dois por precaução):
+Para acessar o quiz, use o link abaixo:
 
-- [Link 1 para o site](https://seusite1.com)  
-- [Link 2 para o site](https://seusite2.com)
+- [Link para o site](https://quiz-ciencias.netlify.app/)  
 
 Divirta-se e boa sorte no quiz! 🔬⚗️
