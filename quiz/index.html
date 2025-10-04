@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Quiz - Feira de Ciências</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container" id="cadastroContainer">
+    <img src="logo.jpg" width="78px" height="78px">
+    <h1>Quiz - Reações Químicas e Físicas</h1>
+    <h2>Cadastro</h2>
+    <form id="cadastroForm">
+      <input type="text" id="nome" placeholder="Nome do estudante" required style="background-color:#2c2c2c;color:#e0e0e0;" class="localNome">
+      <select id="serie" required>
+        <option value="">Selecione a série</option>
+        <option>4º ano do Fundamental</option>
+        <option>5º ano do Fundamental</option>
+        <option>6º ano do Fundamental</option>
+        <option>7º ano do Fundamental</option>
+        <option>8º ano do Fundamental</option>
+        <option>9º ano do Fundamental</option>
+        <option>1º ano do Ensino Médio</option>
+        <option>2º ano do Ensino Médio</option>
+        <option>3º ano do Ensino Médio</option>
+        <option>Não estudo</option>
+      </select>
+      <button type="submit">Iniciar Quiz</button>
+    </form>
+  </div>
+
+  <div class="container hidden" id="quizContainer">
+    <h2>Responda o Quiz</h2>
+    <div id="quiz"></div>
+    <button id="submitQuiz">Enviar Respostas</button>
+  </div>
+
+  <div class="container historico" id="historicoContainer">
+    <h2>Histórico de Alunos</h2>
+    <div id="historico"></div>
+  </div>
+
+  <div class="resultado-alert" id="resultadoAlert"></div>
+  <footer class="footer1" id="creditos">
+    
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>
